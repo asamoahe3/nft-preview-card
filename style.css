@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;700&display=swap");
 
 :root {
@@ -34,30 +32,32 @@ body {
 .container {
   background-color: var(--card-bg);
   border-radius: 10px;
-  max-width: 310px;
-  padding: 20px;
+  max-width: 300px;
+  padding: 23px;
+  box-shadow: 10px 10px 20px 10px var(--main-bg);
 }
 
 .card-top img {
-  border-radius: 10px;
+  border-radius: 5px;
   width: 100%;
   height: auto;
 }
 
 .card-inner {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .card-inner h2 {
   color: var(--white);
-  font-size: 22px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 700;
   margin: 10px 0 10px 0;
 }
 
 .card-inner p {
   color: var(--soft-blue);
-  line-height: 25px;
+  line-height: 20px;
+  font-size: 15px;
   margin: 15px 0 15px 0;
 }
 
@@ -75,6 +75,7 @@ body {
 
 .card-inner--a .align-text {
   margin-left: 0.5em;
+  font-size: 14px;
 }
 
 .card-inner--a .cyan-text {
@@ -96,10 +97,12 @@ body {
 .img-card p {
   margin-left: 0.9em;
   font-weight: 300;
+  font-size: 14px;
 }
 
 .img-card p span {
   color: var(--white);
+  font-weight: 500;
 }
 
 .img-card img {
